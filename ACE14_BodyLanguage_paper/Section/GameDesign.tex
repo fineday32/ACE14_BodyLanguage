@@ -44,9 +44,30 @@ To encourage players to use body language, we have designed an asymmetric puzzle
 \caption{The asymmetric puzzle game design in one of Mute Robot’s stages.}
 \label{fig:GD_F2}
 \end{figure}
-hi
+
 
 \subsection{Level Design}
-hi
+
+% To test the limitation of body language in cooperative game, we designed three puzzles with incremental difficulty. Every message for player to transmit is getting more and more complex.
+
+In order to test the limitation of using body language in cooperative game, we designed three puzzles with incremental difficulty, which means that the message player needed to transmit will have higher complexity than previous one. Next we introduce each game level respectively.
+
+% In the first level, we are testing sequence message to transmit which is a classic cooperative game puzzle. One player has to express the secret sequence to another player, so that he can press the apparatus buttons in correct sequence, then open the door and route to next puzzle.
+
+In the first level, we test sequence messages whether to be transmitted or not. This is a classic puzzle in cooperative game. One player has to express the secret sequence to another player so that another player can press the apparatus buttons in correct order. If the order is correct, the door will open and both players can proceed to the next level.
+
+% In the second level, there are three apparatus wheel to turn to the correct pattern. The symbols on the first wheel are two state of boolean value (circle and cross), and the second wheel’s symbols are numbers (3,4,7), the symbols on the last wheel are animals(fish, chicken, monkey and elephant).
+
+In the second level, there are three apparatus wheels which need to be turned to the correct pattern. Symbols on the first wheel are boolean value (circle and cross). The second wheel's symbols are numbers (3, 4, 7), and the last wheel's symbols are animals (fish, chicken, monkey and elephant).
+
+% In the last level, we want to test more complex concept like emotion, so we randomly give an emotion word for player to transmit (angry, happy or tired) ,and the player on the other side needs to guess the emotion and spell it correctly.
+
+In the last level, we want to test the concept with higher complexity, such as emtion. So we randomly provide an emotion word (angry, happy or tired) for one player and he needs to transmit to another player. The level can be passed only if another player guess the emotion and spell it correctly.
+
 \subsection{System Implementation}
-hi
+
+% Mute Robot is a cooperative puzzle platformer game built using Unity3D[4] engine. The game involves two players at two distinct locations connected over the Internet. The players cannot talk to each other directly and the only way to communicate is using their body language. we use Kinect to capture player’s body language and apply to their avatar. To avoid arm fatigue of mid-air interactions [1] with Kinect, each player uses a Wii[3] controller to complete trivial manipulation (e.g.move left,move right, jump, confirm, cancel). 
+
+Mute Robot is a cooperative puzzle platformer game built using Unity3D\cite{GD4} engine. The game involves two players at two distinct locations connected over the Internet. The players cannot talk to each other directly and the only way to communicate is using their body language. We use Kinect to capture player's body language and apply to their avatar. In order to avoid arm fatigue of mid-air interactions\cite{GD6} with Kinect, each player uses a Wii\cite{GD5} controller to complete trivial manipulation (e.g. move left, move right, confirm, cancel).
+
+
