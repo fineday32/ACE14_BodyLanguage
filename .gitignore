@@ -4,6 +4,6 @@
 *_latexmk
 *.log
 *.out
-*.pdf
+ace-bodylanguage.pdf
 *.synctex.gz
 
