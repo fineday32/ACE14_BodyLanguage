@@ -1,10 +1,10 @@
 \section{Introduction}
 
-Internet has enabled billions of people around the world to connect, cooperate, and communicate. However, even the most widely spoken language, Mandarin, is only spoken by 12\% of the world population. 
+The Internet has enabled billions of people around the world to connect, communicate, and cooperate. However, even the most widely spoken language, Mandarin, is only spoken by 12\% of the world population. 
 Other official languages of the United Nations, like English and French, are only spoken by 4.8\% and 1.0\% of the world, respectively \cite{I1}. 
-Even if we include non-native speakers who are able to communicate in that language, they still only represent 12\% and 3\% of the world, respectively \cite{I2,I3}. This means that even for someone who speaks two of the most popular languages in the world, English and French, the person is only able to communicate with a small percentage of the world population.
+Even if we include non-native speakers who are able to communicate in that language, they still only represent 12\% and 3\% of the world, respectively \cite{I2,I3}. This means that even for someone who speaks two of the most popular languages in the world, the person is only able to communicate with a small percentage of the world population.
 
-To understand how language barriers affect cooperative gaming experience over the Internet, we conducted a 12-person user study with 3 popular online cooperative games. We collected participants' experience and rating using extended Short Feedback Questionnaire (eSFQ) \cite{eSFQ} and Cooperative Performance Metrics (CPMs) \cite{CPMs}, and conducted interviews. Results showed that while none of the participants with common languages reported the games as frustrating, up to 67\% of the participants without common languages found the games frustrating. Also, participants without common languages rated fun and enjoyment significantly lower at 3.6 vs 4.3 (on a scale of 1 to 5) compared to the participants with common languages. 
+One of the most popular activities on the Internet is playing cooperative games, with three of the top online cooperative games having sold more than 50 million copies. To understand how language barriers affect cooperative gaming experience, we conducted a 12-person user study with three popular online cooperative games. We collected participants' experience and rating using extended Short Feedback Questionnaire (eSFQ) \cite{eSFQ} and Cooperative Performance Metrics (CPMs) \cite{CPMs}, as well as interviews. The study results showed that while none of the participants with common languages reported the gaming experience as frustrating, up to 67\% of the participants without common languages did. Also, participants without common languages rated fun and enjoyment significantly lower at 3.6 vs 4.3 on average (on a scale of 1 to 5) compared to participants with common languages. 
 
 %
 %Consist of human communication, there are not only speech but also inclusive of various gestures and body motions. Body lan- guage, a non-verbal way to transmit your thoughts without verbal- izing. According to The 7% Rule[21], the influence for communi- cation for verbal is only 7% but is 93% for non-verbal expression. And the non-varbal expression is made up of body language (55%) and tones of voice (38%).
@@ -12,21 +12,7 @@ To understand how language barriers affect cooperative gaming experience over th
 %Inspired by The 7% Rule and the Charades, we suggested to use body language as a communication manner in cooperative game to normalize player’s communication skill. With this idea, whether players are playing with different language speakers or not, their communication skill is near enough for game developer to design a proper difficulty to entertain players. On the other hand, many re- searchers have argued that body movement brings about a positive emotional and social response [7, 10, 16]. We think that body lan- guage communication should enhance game engagement and en- joyment.
 %
 
-Nowadays, it is common for players to play cooperative games from different country under highly developed Internet environment. 
-In our pilot study, we observed that playing cooperative game, which required high-level-feature communication, with different language speaker would cause frustrating game experience.
-
-We suggest to use body language as a communication manner in cooperative game to get better game experience. With this approach, no matter playing with different language speaker or common language speaker, player would have consistent game experience. 
-
-We also provide a game prototype, Mute Robot, to explore cooperative game design through body language. Mute Robot provides three game stages for players to solve puzzles.
-To encourage players to use body language, we have designed an asymmetric puzzle system, with only one player receiving puzzle hints. The player will use body language to guide the other player to solve the puzzle.
-
-By using extended Short Feedback Questionnaire (eSFQ)\cite{eSFQ} and Cooperative Performance Metrics (CPMs)\cite{CPMs} to evaluate game experience, our user study results indicate that, using body language in cooperative game design would enhance original game experience and decrease 48\% frustrating caused by language boundary. And we observe that cooperative game has consistent game experience with body language communication.
-
-% According to our final questionnaire, only 17\% and 25\% (different language group and common language group) player choose traditional communication manner (speaking) as the favorite manner.
-According to our final questionnaire, after adding the communication manner of body language, 83\% and 75\% (different language group and common language group) players choose our new communication manner (``body language'' and ``both'') as the favorite manner. 
-
-We also observe some interesting communication patterns. Game developer can make a better game experience with these information. We hope to inspire more exploration of using body language in game designs and spread game entertainment for more people.
-
+Because a significant portion of human communication is expressed through body language \cite{7-percent-rule}, we explore the effects of using body language in cooperative games for players with and without language barriers. We developed an online cooperative platform, BodyUp, that uses Microsoft Kinect sensors to capture body postures, Wii controllers to move the avatars, and microphone to capture voice. 
 
 \begin{figure}[t]
 \centering
@@ -34,4 +20,16 @@ We also observe some interesting communication patterns. Game developer can make
 \caption{(a) Playing cooperative games via Internet, (b) Using body language as a communication manner}
 \label{fig:Topic}
 \end{figure}
+
+We also developed a game, Mute Robot, using BodyUp to support cooperative gaming in three communication modes: 1) speech only, 2) body language only, and 3) both speech and body language. We designed Mute Robot to enable pairs of players to cooperate to solve puzzles. It consists of three asymmetric puzzle stages, where only one player can see the solution hints and needs to guide the other player to solve the puzzles.
+
+We conducted a 48-person user study using the three communication modes, with half of the users having common languages and half without. Using extended Short Feedback Questionnaire (eSFQ)\cite{eSFQ} and Cooperative Performance Metrics (CPMs)\cite{CPMs} to evaluate their gaming experience, the study results showed that adding body language to cooperative games increases the fun and enjoyment ratings for both players with and without common languages. 
+Also, adding body language decreases 48\% frustrating caused by language boundary. And we observe that cooperative game has consistent game experience with body language communication.
+
+% According to our final questionnaire, only 17\% and 25\% (different language group and common language group) player choose traditional communication manner (speaking) as the favorite manner.
+According to our final questionnaire, after adding the communication manner of body language, 83\% and 75\% (different language group and common language group) players choose our new communication manner (``body language'' and ``both'') as the favorite manner. 
+
+We also observe some interesting communication patterns. Game developer can make a better game experience with these information. We hope to inspire more exploration of using body language in game designs and spread game entertainment for more people.
+
+
 
