@@ -1,20 +1,33 @@
 \section{User Study}
 
-To compare our solution with traditional setting, we provided three different types of communication manners to play Mute Robot. We divided users into two groups by whether they have the same native language or not. So there are common language and different language groups respectively. Different language group are required to use their native language to communicate with each other. About our experiment, every team will have two players and be placed in two distinct rooms. Players play Mute Robot with each other through the Internet connection. Totally we tested 24 groups with 48 users (34 male and 14 female, average age is 22.6), inclusive of 12 common language groups and 12 different language groups (36 Taiwanese, 5 Japanese, 2 German, 1 Netherlander, 1 Chilan, 1 Iraqi, 1 Russian, 1 Guatemalan).
+Our goal is to explore how body language affects cooperative experience for players with and without common languages. 
 
-\subsection{Method}
+\subsection{Study Design and Participants}
+We set up our prototype game with three distinct communication modes: speaking only, body language only, and both speaking and body language. 
 
-In our experiment, we provided three different types of communication manners to play Mute Robot:
-\begin{enumerate}
-    \item Speaking: 
-    traditional gameplay manner, user can communicate through speaking language.
-    \item Body Language: 
-    players can communicate through body language only.
-    \item Both:
-    players can communicate with each other through speaking language and body language.
-\end{enumerate}
+%To compare our solution with traditional setting, we provided three different types of communication manners to play Mute Robot. We divided users into two groups by whether they have the same native language or not. So there are common language and different language groups respectively. Different language group are required to use their native language to communicate with each other. About our experiment, every team will have two players and be placed in two distinct rooms. Players play Mute Robot with each other through the Internet connection. Totally we tested 24 groups with 48 users (34 male and 14 female, average age is 22.6), inclusive of 12 common language groups and 12 different language groups (36 Taiwanese, 5 Japanese, 2 German, 1 Netherlander, 1 Chilan, 1 Iraqi, 1 Russian, 1 Guatemalan).
+%
+%\subsection{Method}
+%
+%In our experiment, we provided three different types of communication manners to play Mute Robot:
+%\begin{enumerate}
+%    \item Speaking: 
+%    traditional gameplay manner, user can communicate through speaking language.
+%    \item Body Language: 
+%    players can communicate through body language only.
+%    \item Both:
+%    players can communicate with each other through speaking language and body language.
+%\end{enumerate}
 
-In order to eliminate order effects, each user played Mute Robot with counterbalance by administering the various types of game in a different sequence. After playing each type of Mute Robot, players will fill out an eSFQ\cite{eSFQ} questionnaire to evaluate the gameplay experience. Besides, when players finished all three types of Mute Robot, they will need to fill out another final questionnaire and proceed user interview. It needs about 1 hour to finish our user study experiment. We would conduct video recording at all experimental process and used these video to do CPMs\cite{CPMs}, which used to evaluate user gameplay experience.
+Each pair of players were placed into two separate rooms, so that they could not see nor hear each other. The rooms were on the same local area network to minimize network latency. At the beginning of each session, players practiced controlling the avatars via Kinect and Wii controllers and speaking to their partners through voice over IP (VOIP). 
+
+Each pair of players completed all Mute Robot stages three times, each time using one of three communication modes. The order of the communication modes were counterbalanced to eliminate the effects of ordering.
+Each time the players completed Mute Robot using one of the communication modes, they filled out an Short Feedback Questionnaire (eSFQ)\cite{eSFQ} questionnaire to rate their experience. 
+
+At the end of the session, the players filled out a final questionnaire comparing their preferences, and we conducted interviews to get their qualitative feedback. Each session took about 1 hour to finish. 
+In addition, all the gameplay was recorded on video and we manually coded them using Cooperative Performance Metrics (CPM)\cite{CPMs}. 
+
+We recruited 48 participants (14 female) with average age of 23, for a total of 24 pairs of participants. Half of the participant pairs shared a common language (Mandarin). The other half of the pairs were ask to speak in a language that could not be understood by their partners (12 Taiwanese speakers paired with 5 Japanese, 2 German, 1 Netherlander, 1 Chilean, 1 Iraqi, 1 Russian, and 1 Guatemalan).
   
 % After our user study, we used eSFQ, CPMs, and a final questionnaire to evaluate the Mute Robot gameplay experience between different communication manners.
 
@@ -28,10 +41,16 @@ In order to eliminate order effects, each user played Mute Robot with counterbal
 % \end{figure}
 
 % \subsection{Result}
-After our user study, we used eSFQ, CPMs, and a final questionnaire to evaluate the Mute Robot gameplay experience between different communication manners.
 
-\subsection{eSFQ Results}
-eSFQ\cite{eSFQ} had been proved that it is a questionnaire for rapid assessment of game experience. eSFQ capture the experienced fun/enjoyment (include the rating of experienced fun and description of the game experience), and co-experience (inculde the description of the co-experience with the other player). 
+%After our user study, we used eSFQ, CPMs, and a final questionnaire to evaluate the Mute Robot gameplay experience between different communication manners.
+
+
+
+
+\subsection{Short Feedback Questionnaire (eSFQ) Results}
+eSFQ\cite{eSFQ} is widely used for rapid assessment of game experience. It captures . 
+
+ fun/enjoyment (include the rating of experienced fun and description of the game experience), and co-experience (inculde the description of the co-experience with the other player). 
 
 % eSFQ\cite{eSFQ} had been proved that it is a questionnaire for rapid assessment of game experience. eSFQ capture the experienced fun/enjoyment, curiosity, and co-experience. 
 
@@ -208,9 +227,9 @@ For different language group,the users experienced playing ``Speaking'' together
 According to the results, ``Body language'' communication manner has the highest fun index for common language group. And in accordance with Figure~\ref{fig:US_Co-ex_Dif_Pos}, ``Both'' communication manner has the highest fun index for different language group. However, from Figure~\ref{fig:US_Co-ex_Dif_Neg}, compared to traditional setting and body language setting, the frustrating rate decreases obviously from 25\% to 13\%, which means the ratio of frustrating decreased 48\%.
 
 
-\subsection{CPMs Results}
+\subsection{Cooperative Performance Metrics (CPM) Results}
 
-Cooperative Performance Metrics (CPMs)\cite{CPMs} used for analysis of cooperative games. CPMs analyzed game experience manners through players' behavior during game playing. The set of CPMs developed is as follows: ``Laughter or excitement together'', ``Work out strategies'', ``Helping each other'', ``Global Strategies'', ``Waited for each other'' and ``Got in each other's way ''. 
+Cooperative Performance Metrics (CPM)\cite{CPMs} used for analysis of cooperative games. CPMs analyzed game experience manners through players' behavior during game playing. The set of CPMs developed is as follows: ``Laughter or excitement together'', ``Work out strategies'', ``Helping each other'', ``Global Strategies'', ``Waited for each other'' and ``Got in each other's way ''. 
 % Because the index of ``Laugher or excitement together'' is unfair to body language communicatin manner, which can't hear another player's sound, thus we added an additinal index: ``Laugher or excitement'', which indicates count of personal user's laugh times, and 
 After our user study, we found out that ``Global Strategies'' didn't go to happen in our game, and ``Got in each other's way'' only happened two times in our user study. So we removed these two indexes.
 
