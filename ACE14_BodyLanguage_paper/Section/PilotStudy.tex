@@ -23,12 +23,8 @@ In order to simulate cooperative gameplay over the Internet, pairs of players we
 
 \subsection{Results}
 
-\begin{figure}[!t]
-\centering
-\includegraphics[width=0.9\columnwidth]{Figures/PS_Frus.pdf}
-\caption{The eSFQ Frustration index, which is the percentage of players who reported a frustrating experience, of three cooperative games for players \textit{with} and \textit{without} common languages.}
-\label{fig:PS_Frus}
-\end{figure}
+eSFQ\cite{eSFQ} has been widely used for rapid assessment of game experience. Players are asked to provide Likert-scale ratings (on a scale of 1 to 5) and to select multiple keywords to describe aspects of their experience. 
+For this study, we focus on the fun/enjoyment ratings and the frustrating co-experience. 
 
 \begin{figure}[!t]
 \centering
@@ -37,13 +33,25 @@ In order to simulate cooperative gameplay over the Internet, pairs of players we
 \label{fig:PS_FunAndEnj}
 \end{figure}
 
+
+\begin{figure}[!t]
+\centering
+\includegraphics[width=0.9\columnwidth]{Figures/PS_Frus.pdf}
+\caption{The eSFQ Frustration index, which is the percentage of players who reported a frustrating experience, of three cooperative games for players \textit{with} and \textit{without} common languages.}
+\label{fig:PS_Frus}
+\end{figure}
+
+
+
 % 1. frustraing 比較，
 % 2. fun enj 下降
 
+Figure~\ref{fig:PS_FunAndEnj}, shows the average eSFQ Fun and Enjoyment rating for each game, for players \textit{with} and \textit{without} common languages. 
+A rating of 5 is the highest level of fun and means ``Yeah, fun'', and a rating of 1 is the lowest level of fun and means ``Yawn, boring''.
+The rating was lower for all three games when the players did not have common languages. Overall, the Fun and Enjoyment rating was 3.6 vs 4.3 for players without common languages compared to those who could communicate using a common spoken language.
+
 Figure~\ref{fig:PS_Frus} shows the eSFQ Frustration index, which is the percentage of players who reported the experience as frustrating, for players \textit{with} and \textit{without} common languages.
 For two out of the three games, Portal 2 and Monaco, frustration is significantly higher for players without common languages than than those who did. In fact, none of the players with a common spoken languages reported any of the games as frustrating. 
-
-Figure~\ref{fig:PS_FunAndEnj}, shows the average eSFQ Fun and Enjoyment rating for each game (on a scale of 1 to 5), for players \textit{with} and \textit{without} common languages. The rating was lower for all three games when the players did not have common languages. Overall, the Fun and Enjoyment rating was 3.6 vs 4.3 for players without common languages compared to those who could communicate using a common spoken language.
 
 %\subsection{Discussion}
 % \begin{figure}[!h]
@@ -73,7 +81,6 @@ Monaco's gameplay allowed a single player to solve a challenge, although coopera
 %, is reported not cooperative at all and frustrated while playing the game. In our observation, different language group players only try to communicate at first, and then give up to communicate with each other quickly. The reason is that Monaco is not restricted to a single solution to the challenge and force players to cooperate together. Under this gameplay environment, asingle player can still finish his own mission secretly in the building, even though both players are not cooperative working and then the difficulty will increase significantly. We consider that this situation would make the gameplay experience be frustrated and players would think this game does not need to cooperate at all.
 
 
-
 \begin{table}[!h]
 % \renewcommand\arraystretch{1.2}
   \centering
@@ -81,12 +88,13 @@ Monaco's gameplay allowed a single player to solve a challenge, although coopera
   !{\vrule width2pt}c
   %!{\vrule width2pt}m{0.7\columnwidth}
   !{\vrule width2pt}p{0.7\columnwidth}
+  %!{\vrule width2pt}c
   !{\vrule width2pt}c}
     \Xhline{2px}
-    \tabhead{Game} &
-    \multicolumn{1}{p{0.7\columnwidth}!{\vrule width2pt}}{\tabhead{Feedback from Players without Common Languages}} \\
+    \centering\tabhead{Game} &
+    \multicolumn{1}{p{0.7\columnwidth}!{\vrule width2pt}}{\centering\tabhead{Feedback from Players without Common Languages}} \\
     \Xhline{2px}
-    Rockebirds & 
+    Rocketbirds & 
     \begin{itemize}
 	  \item ``Although it was slower without talking, the challenges could still 
     be beaten with patience.''(P2)
