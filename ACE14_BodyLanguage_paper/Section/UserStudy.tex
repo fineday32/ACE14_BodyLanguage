@@ -1,20 +1,33 @@
 \section{User Study}
 
-To compare our solution with traditional setting, we provided three different types of communication manners to play Mute Robot. We divided users into two groups by whether they have the same native language or not. So there are common language and different language groups respectively. Different language group are required to use their native language to communicate with each other. About our experiment, every team will have two players and be placed in two distinct rooms. Players play Mute Robot with each other through the Internet connection. Totally we tested 24 groups with 48 users (34 male and 14 female, average age is 22.6), inclusive of 12 common language groups and 12 different language groups (36 Taiwanese, 5 Japanese, 2 German, 1 Netherlander, 1 Chilan, 1 Iraqi, 1 Russian, 1 Guatemalan).
+Our goal is to explore how body language affects cooperative experience for players with and without common languages. 
 
-\subsection{Method}
+\subsection{Study Design and Participants}
+We set up our prototype game with three distinct communication modes: speaking only, body language only, and both speaking and body language. 
 
-In our experiment, we provided three different types of communication manners to play Mute Robot:
-\begin{enumerate}
-    \item Speaking: 
-    traditional gameplay manner, user can communicate through speaking language.
-    \item Body Language: 
-    players can communicate through body language only.
-    \item Both:
-    players can communicate with each other through speaking language and body language.
-\end{enumerate}
+%To compare our solution with traditional setting, we provided three different types of communication manners to play Mute Robot. We divided users into two groups by whether they have the same native language or not. So there are common language and different language groups respectively. Different language group are required to use their native language to communicate with each other. About our experiment, every team will have two players and be placed in two distinct rooms. Players play Mute Robot with each other through the Internet connection. Totally we tested 24 groups with 48 users (34 male and 14 female, average age is 22.6), inclusive of 12 common language groups and 12 different language groups (36 Taiwanese, 5 Japanese, 2 German, 1 Netherlander, 1 Chilan, 1 Iraqi, 1 Russian, 1 Guatemalan).
+%
+%\subsection{Method}
+%
+%In our experiment, we provided three different types of communication manners to play Mute Robot:
+%\begin{enumerate}
+%    \item Speaking: 
+%    traditional gameplay manner, user can communicate through speaking language.
+%    \item Body Language: 
+%    players can communicate through body language only.
+%    \item Both:
+%    players can communicate with each other through speaking language and body language.
+%\end{enumerate}
 
-In order to eliminate order effects, each user played Mute Robot with counterbalance by administering the various types of game in a different sequence. After playing each type of Mute Robot, players will fill out an eSFQ\cite{eSFQ} questionnaire to evaluate the gameplay experience. Besides, when players finished all three types of Mute Robot, they will need to fill out another final questionnaire and proceed user interview. It needs about 1 hour to finish our user study experiment. We would conduct video recording at all experimental process and used these video to do CPMs\cite{CPMs}, which used to evaluate user gameplay experience.
+Each pair of players were placed into two separate rooms, so that they could not see nor hear each other. The rooms were on the same local area network to minimize network latency. At the beginning of each session, players practiced controlling the avatars via Kinect and Wii controllers and speaking to their partners through voice over IP (VOIP). 
+
+Each pair of players completed all Mute Robot stages three times, each time using one of three communication modes. The order of the communication modes were counterbalanced to eliminate the effects of ordering.
+Each time the players completed Mute Robot using one of the communication modes, they filled out an Short Feedback Questionnaire (eSFQ)\cite{eSFQ} questionnaire to rate their experience. 
+
+At the end of the session, the players filled out a final questionnaire comparing their preferences, and we conducted interviews to get their qualitative feedback. Each session took about 1 hour to finish. 
+In addition, all the gameplay was recorded on video and we manually coded them using Cooperative Performance Metrics (CPM)\cite{CPMs}. 
+
+We recruited 48 participants (14 female) with average age of 23, for a total of 24 pairs of participants. Half of the participant pairs shared a common language (Mandarin). The other half of the pairs were ask to speak in a language that could not be understood by their partners (12 Taiwanese speakers paired with 5 Japanese, 2 German, 1 Netherlander, 1 Chilean, 1 Iraqi, 1 Russian, and 1 Guatemalan).
   
 % After our user study, we used eSFQ, CPMs, and a final questionnaire to evaluate the Mute Robot gameplay experience between different communication manners.
 
@@ -28,16 +41,20 @@ In order to eliminate order effects, each user played Mute Robot with counterbal
 % \end{figure}
 
 % \subsection{Result}
-After our user study, we used eSFQ, CPMs, and a final questionnaire to evaluate the Mute Robot gameplay experience between different communication manners.
 
-\subsection{eSFQ Results}
-eSFQ\cite{eSFQ} had been proved that it is a questionnaire for rapid assessment of game experience. eSFQ capture the experienced fun/enjoyment (include the rating of experienced fun and description of the game experience), and co-experience (inculde the description of the co-experience with the other player). 
+%After our user study, we used eSFQ, CPMs, and a final questionnaire to evaluate the Mute Robot gameplay experience between different communication manners.
+
+
+
+
+\subsection{Short Feedback Questionnaire (eSFQ) Results}
+In our analysis, we focus on the fun/enjoyment ratings and both the positive and negative co-experience as described through the selected keywords. 
 
 % eSFQ\cite{eSFQ} had been proved that it is a questionnaire for rapid assessment of game experience. eSFQ capture the experienced fun/enjoyment, curiosity, and co-experience. 
 
 % We used five-point likert scale ranging from ``I completely agree'', ``I agree'', ``neither/nor'', ``I disagree'' to ``I completely disagree''.
 
-\subsubsection{fun/enjoyment}
+\subsubsection{Fun/Enjoyment Ratings}
 
 % \begin{figure}[!h]
 % \centering
@@ -53,7 +70,7 @@ eSFQ\cite{eSFQ} had been proved that it is a questionnaire for rapid assessment 
 % \label{fig:US_Fun_Dif}
 % \end{figure}
 
-\begin{figure}[!h]
+\begin{figure}[!t]
 \centering
 \includegraphics[width=0.9\columnwidth]{Figures/US_Fun.pdf}
 \caption{eSFQ: fun/enjoyment rating for Common Language and Different Language Group.}
@@ -81,9 +98,15 @@ eSFQ\cite{eSFQ} had been proved that it is a questionnaire for rapid assessment 
 
 % For different language group (see Figure~\ref{fig:US_Fun_Dif}), the mean of the experienced fun level for ``Speaking'' was 4.08 (SD = 0.97). Their game experiences were related to great (42\% of the users), intuitive (38\%), simple (38\%), and confusing (33\%). The mean of the experienced fun level for ``Body language'' was 4.46 (SD = 0.66). Their game experiences were related to intuitive (54\%), exciting (46\%), simple (38\%) and difficult (33\%). The mean of the experienced fun level for ``Both'' was 4.50 (SD = 0.59). Their game experiences were related to intuitive (67\%), exciting (42\%), simple (42\%), great (34\%) and confusing (33\%).
 
-For common language group (see Figure~\ref{fig:US_Fun}), the mean of the experienced fun level for ``Speaking'' was 3.58 (SD = 1.14) (5 meaning ``Yeah, fun'' - highest level of fun and 1 meaning ``Yawn, boring'' - lowest level of fun). Their game experiences were related to simple (83\% of the users), and intuitive (54\%). The mean of the experienced fun level for ``Body language'' was 4.54 (SD = 0.66). Their game experiences were related to intuitive (54\%), exciting (46\%) and great (42\%). The mean of the experienced fun level for ``Both'' was 3.96 (SD = 1.00). Their game experiences were related to intuitive (63\%), simple (63\%) and exciting (33\%). 
+Figure~\ref{fig:US_Fun} shows the fun/enjoyment rating for players with and without common languages using the three communication modes. 
+For players with common languages, their mean rating for Speaking mode was 3.58 (SD = 1.14), and the most popular keywords selected were ``simple'' (83\% of the users) and ``intuitive'' (54\%). 
+The mean of the experienced fun level for ``Body language'' was 4.54 (SD = 0.66). Their game experiences were related to intuitive (54\%), exciting (46\%) and great (42\%). 
+The mean of the experienced fun level for ``Both'' was 3.96 (SD = 1.00). Their game experiences were related to intuitive (63\%), simple (63\%) and exciting (33\%). 
 
-For different language group (see Figure~\ref{fig:US_Fun}), the mean of the experienced fun level for ``Speaking'' was 4.08 (SD = 0.97). Their game experiences were related to great (42\% of the users), intuitive (38\%), simple (38\%), and confusing (33\%). The mean of the experienced fun level for ``Body language'' was 4.46 (SD = 0.66). Their game experiences were related to intuitive (54\%), exciting (46\%), simple (38\%) and difficult (33\%). The mean of the experienced fun level for ``Both'' was 4.50 (SD = 0.59). Their game experiences were related to intuitive (67\%), exciting (42\%), simple (42\%), great (34\%) and confusing (33\%).
+For different language group (see Figure~\ref{fig:US_Fun}), 
+the mean of the experienced fun level for ``Speaking'' was 4.08 (SD = 0.97). Their game experiences were related to great (42\% of the users), intuitive (38\%), simple (38\%), and confusing (33\%). 
+The mean of the experienced fun level for ``Body language'' was 4.46 (SD = 0.66). Their game experiences were related to intuitive (54\%), exciting (46\%), simple (38\%) and difficult (33\%). 
+The mean of the experienced fun level for ``Both'' was 4.50 (SD = 0.59). Their game experiences were related to intuitive (67\%), exciting (42\%), simple (42\%), great (34\%) and confusing (33\%).
 
 % The fun/enjoyment rate of ``Body language'' and ``using speaking and body language together'' were better than ``Speaking'', no matter in common language group or in different language group. In sum, ``Body language'' got the best rate of fun level, and the rate of ``using speaking and body language together'' was only slightly lower than ``Body language'' but is still very good. And ``Speaking'' got the worst rate. We dicovered that the difficulty of the game would make an influence on fun. In other words, both index were in direct proportion. For instance, when the ratio of simple becomes higher, the ratio of fun will be lower than before. In addition, different language group had higher experienced fun level for ``Speaking'', but it also make users feeling confused for ``Speaking'' and``using speaking and body language together''.
 
@@ -91,7 +114,7 @@ For different language group (see Figure~\ref{fig:US_Fun}), the mean of the expe
 
 % As we can see in Figure~\ref{fig:US_Fun_Com} and \ref{fig:US_Fun_Dif}, whether players have a common language or not, body language has a higher rate of fun/enjoyment than traditional manner(speaking). In other words, body language can enhance fun and enjoyment.
 
-As we can see in Figure~\ref{fig:US_Fun}, whether players have a common language or not, body language has a higher rate of fun/enjoyment than traditional manner(speaking). In other words, body language can enhance fun and enjoyment.
+As we can see in Figure~\ref{fig:US_Fun}, the two communication modes with body language had higher fun/enjoyment ratings compared to the speaking-only mode for all players (both with and without common languages). 
 
 % \paragraph{2. curiosity}
 
@@ -151,7 +174,7 @@ As we can see in Figure~\ref{fig:US_Fun}, whether players have a common language
 % \end{figure}
 
 
-\subsubsection{co-experience}
+\subsubsection{Positive and Negative Co-experience}
 
 \begin{figure}[!h]
 \centering
@@ -208,9 +231,9 @@ For different language group,the users experienced playing ``Speaking'' together
 According to the results, ``Body language'' communication manner has the highest fun index for common language group. And in accordance with Figure~\ref{fig:US_Co-ex_Dif_Pos}, ``Both'' communication manner has the highest fun index for different language group. However, from Figure~\ref{fig:US_Co-ex_Dif_Neg}, compared to traditional setting and body language setting, the frustrating rate decreases obviously from 25\% to 13\%, which means the ratio of frustrating decreased 48\%.
 
 
-\subsection{CPMs Results}
+\subsection{Cooperative Performance Metrics (CPM) Results}
 
-Cooperative Performance Metrics (CPMs)\cite{CPMs} used for analysis of cooperative games. CPMs analyzed game experience manners through players' behavior during game playing. The set of CPMs developed is as follows: ``Laughter or excitement together'', ``Work out strategies'', ``Helping each other'', ``Global Strategies'', ``Waited for each other'' and ``Got in each other's way ''. 
+Cooperative Performance Metrics (CPM)\cite{CPMs} used for analysis of cooperative games. CPMs analyzed game experience manners through players' behavior during game playing. The set of CPMs developed is as follows: ``Laughter or excitement together'', ``Work out strategies'', ``Helping each other'', ``Global Strategies'', ``Waited for each other'' and ``Got in each other's way ''. 
 % Because the index of ``Laugher or excitement together'' is unfair to body language communicatin manner, which can't hear another player's sound, thus we added an additinal index: ``Laugher or excitement'', which indicates count of personal user's laugh times, and 
 After our user study, we found out that ``Global Strategies'' didn't go to happen in our game, and ``Got in each other's way'' only happened two times in our user study. So we removed these two indexes.
 
