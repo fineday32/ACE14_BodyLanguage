@@ -48,12 +48,12 @@ One way to solve this problem is to decrease the game's difficulty. However, thi
 % Mute Robot is a cooperative puzzle platformer game built using Unity3D[4] engine. The game involves two players at two distinct locations connected over the Internet. The players cannot talk to each other directly and the only way to communicate is using their body language. we use Kinect to capture player’s body language and apply to their avatar. To avoid arm fatigue of mid-air interactions [1] with Kinect, each player uses a Wii[3] controller to complete trivial manipulation (e.g.move left,move right, jump, confirm, cancel). 
 
 Our BodyTalk platform uses a Kinect depth camera (v1) and Micrsoft's Kinect SDK (v1.8) to capture each player's skeletal movement. 
-Wii controllers is used for navigation (e.g. move left, right, up, down) and selection (e.g. OK, Cancel). 
+Wii controller is used for navigation (e.g. move left, right, up, down) and selection (e.g. OK, Cancel). 
 This combination of input modality enables users to use both arms and both legs freely for expressive body language communication.
 These data are sent using Unity engine's\cite{unity} Network View over the Internet in real-time.
 %In order to avoid arm fatigue of mid-air interactions\cite{GD6} with Kinect, each player uses a 
 
-We developed a cooperative puzzle platformer game, called Mute Robot, using our BodyTalk platform. Two players at two distinct locations cooperate to solve a series of puzzle challenges, and their body movement are rendered as 3D avatars in real-time (see Figure~\ref{fig:GD_F3}). 
+We developed a cooperative puzzle platformer game, called Mute Robot, using our BodyTalk platform. Two players at two distinct locations cooperate to solve a series of puzzle challenges, and their body movements are rendered as 3D avatars in real-time (see Figure~\ref{fig:GD_F3}). 
 
 % In order to find out the answer, we had designed Mute Robot, a game in which two players must cooperate to solve a series of puzzle challenges by communicating through body language only.
 
@@ -93,7 +93,7 @@ Our prototype game has three stages. The first stage is a classic puzzle in coop
 
 % In the second level, there are three apparatus wheel to turn to the correct pattern. The symbols on the first wheel are two state of boolean value (circle and cross), and the second wheel’s symbols are numbers (3,4,7), the symbols on the last wheel are animals(fish, chicken, monkey and elephant).
 
-The second stage, as shown in Figure~\ref{fig:GD_F2}, has a combination lock with three wheels. All three wheels must be turned to the correct selection in order the unlock the door. The first wheel's symbols are two boolean values (O and X). The second wheel's symbols are three numbers (3, 4, 7), and the last wheel's symbols are animals (fish, chicken, monkey and elephant). The set of correct symbols are randomly generated each time.
+The second stage, as shown in Figure~\ref{fig:GD_F2}, has a combination lock with three wheels. All three wheels must be turned to the correct selection in order the unlock the door. The first wheel's symbols are two boolean values (O and X). The second wheel's symbols are three numbers (3, 4, 7), and the last wheel's symbols are animals (fish, chicken, monkey and elephant). The set of correct symbols is randomly generated each time.
 
 % In the last level, we want to test more complex concept like emotion, so we randomly give an emotion word for player to transmit (angry, happy or tired) ,and the player on the other side needs to guess the emotion and spell it correctly.
 
